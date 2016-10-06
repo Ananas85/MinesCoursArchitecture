@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="objet.FoncteurSequence" project="ModTyp16_eval" 
+    file="/ModTyp16_eval/src/objet/FoncteurSequence.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="165" x="422" y="156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="fonction.FabriqueSequences" project="ModTyp16_eval" 
+    file="/ModTyp16_eval/src/fonction/FabriqueSequences.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="171" x="211" y="156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="structuresAlgebriques.objet.MonoideAdditif" project="ModTyp16_eval" 
+    file="/ModTyp16_eval/src/structuresAlgebriques/objet/MonoideAdditif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="61" width="130" x="41" y="156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="structuresAlgebriques.objet.SemiGroupeAdditif" project="ModTyp16_eval" 
+    file="/ModTyp16_eval/src/structuresAlgebriques/objet/SemiGroupeAdditif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="153" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="structuresAlgebriques.objet.UnifereAddition" project="ModTyp16_eval" 
+    file="/ModTyp16_eval/src/structuresAlgebriques/objet/UnifereAddition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="134" x="234" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
